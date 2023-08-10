@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-size: larger;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding: 20px 20px;
+  color: whitesmoke;
+}
+ul {
+  list-style: none;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links li {
+  margin: 10px;
+}
+
+.logo {
+  padding-left: 10%;
+  padding-top: 3vh;
+  width: 100px;
+  height: 75px;
+}
+header {
+  width: 100vw;
+  height: 85vh;
+  /* background-image: url(images/1.jpg); */
+  background-color: rgb(16, 16, 110);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: center;
+}
+.header-content {
+  /* display: flex; */
+  /* justify-content: center; */
+  color: white;
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 8vmin;
+  font-weight: 800;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 40vw;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.header-content h4 {
+  color: rgb(180, 180, 180);
+  font-size: 1vmax;
+  font-weight: 400;
+  padding-top: 2vw;
+  padding-left: 100px;
+  margin-left: 10vw;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 34vw;
+  margin-bottom: 40px;
+}
+
+.ctn {
+  padding: 8px;
+  background-color: darkblue;
+  border-radius: 8px;
+  border-color: orange;
+  color: orange;
+  padding: 12px;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+.ctn:hover {
+  background-color: orange;
+  color: white;
+  transition: 1s;
+}
+
+.submenu {
+  display: none;
+}
+
+.navbar ul li:hover .submenu {
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin: 10px;
+  color: black;
+  padding: 1.5vw;
+  border-radius: 2.5%;
+}
+.navbar ul li:hover .submenu ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: darkblue;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submenu li:hover {
+  padding: 5%;
+  text-decoration: underline;
+  color: orange;
+  cursor: pointer;
+}
+
+span {
+  font-size: 12px;
+  color: gainsboro;
+}
+
+.end-nav {
+  display: flex;
+  margin-left: 400px;
+}
+.bt1 {
+  padding: 12px;
+  cursor: pointer;
+  font-size: larger;
+}
+.bt2 {
+  margin-left: 20px;
+  background-color: orange;
+  border-radius: 8px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+.bt1:hover {
+  text-decoration: underline;
+}
+.bt2:hover {
+  background-color: white;
+  color: orange;
+  font-size: large;
+  transition: 1s;
+}
+
+.sec-1 {
+  width: 400px;
+  height: 300px;
+  margin-top: 100px;
+  /* height: 15vh;
+  margin-right: 50px; */
+}
